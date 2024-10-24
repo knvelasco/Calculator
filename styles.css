@@ -54,5 +54,20 @@ button:active{
 .opertator-btn:active{
     background-color:hsl(35, 100%, 75%) ;
 }
-
-
+@media only screen and (max-width: 450px){
+    #calculator{
+        max-width: 95%;
+    }
+    #keys{
+        max-width: 95%;
+    }
+    #display{
+        max-width: 95%;
+        font-size: 2rem;
+    }
+    button{
+        width: 70px;
+        height: 70px;
+        font-size: 2rem;
+    }
+}
