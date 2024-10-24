@@ -1,10 +1,9 @@
 #calculator{
-    width: 90%; /* Responsive width */
-    max-width: 400px; /* Limit size on larger screens */
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
 }
 #display{
     width: 100%;
@@ -55,18 +54,5 @@ button:active{
 .opertator-btn:active{
     background-color:hsl(35, 100%, 75%) ;
 }
-@media (max-width: 600px) {
-    #calculator {
-        width: 95%;       
-    }
-    button {
-        width: 95%; /* Adjust button size */
-        font-size: 1.2rem;
-    }
 
-    #display {
-        font-size: 1.5rem; /* Smaller font for the display */
-        width: 95%;
-    }
-}
 
