@@ -1,5 +1,5 @@
 #calculator{
-   width: 90%; /* Responsive width */
+    width: 90%; /* Responsive width */
     max-width: 400px; /* Limit size on larger screens */
     background-color: #fff;
     padding: 20px;
@@ -57,16 +57,16 @@ button:active{
 }
 @media (max-width: 600px) {
     #calculator {
-        width: 95%; 
+        width: 95%;       
     }
-
     button {
-        padding: 15px;
+        width: 95%; /* Adjust button size */
         font-size: 1.2rem;
     }
 
-    #display input {
+    #display {
         font-size: 1.5rem; /* Smaller font for the display */
+        width: 95%;
     }
 }
 
