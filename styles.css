@@ -56,17 +56,16 @@ button:active{
     background-color:hsl(35, 100%, 75%) ;
 }
 @media (max-width: 600px) {
-    .container {
-        width: 100%;
-        max-width: 100%; /* Remove max width */
+    #calculator {
+        width: 95%; 
     }
 
     button {
-        width: 22%; /* Adjust button size */
+        padding: 15px;
         font-size: 1.2rem;
     }
 
-    .display input {
+    #display input {
         font-size: 1.5rem; /* Smaller font for the display */
     }
 }
