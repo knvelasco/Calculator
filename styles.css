@@ -54,3 +54,19 @@ button:active{
 .opertator-btn:active{
     background-color:hsl(35, 100%, 75%) ;
 }
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        max-width: 100%; /* Remove max width */
+    }
+
+    button {
+        width: 22%; /* Adjust button size */
+        font-size: 1.2rem;
+    }
+
+    .display input {
+        font-size: 1.5rem; /* Smaller font for the display */
+    }
+}
+
