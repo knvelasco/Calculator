@@ -5,6 +5,14 @@
     max-width: 500px;
     overflow: hidden;
 }
+.container {
+    width: 90%; /* Responsive width */
+    max-width: 400px; /* Limit size on larger screens */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 #display{
     width: 100%;
     padding: 20px;
