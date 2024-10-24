@@ -1,12 +1,5 @@
 #calculator{
-    font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 15%);
-    border-radius: 15px;
-    max-width: 500px;
-    overflow: hidden;
-}
-.container {
-    width: 90%; /* Responsive width */
+   width: 90%; /* Responsive width */
     max-width: 400px; /* Limit size on larger screens */
     background-color: #fff;
     padding: 20px;
